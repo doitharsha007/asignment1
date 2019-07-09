@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+	<link href="ami.css" rel="stylesheet">
+</head>
+<body>
+	<SCRIPT src="work.htm" language="JavaScript" type="text/javascript">
+	</script>
+<FORM method="POST" onSubmit="return work(this,'A');">
+<div class="head">
+<h1>Quiz level : Hard</h1>
+Question : 1/10
+<div class="questions">
+What is the output of the following program :<br>
+<code>import re<br>
+sentence = 'horses are fast'<br>
+regex = re.compile('(?P<animal>w+) (?P<verb>w+) (?P<adjective>w+)')<br>
+matched = re.search(regex, sentence)<br>
+print(matched.groupdict())
+</code>
+<br>
+<INPUT TYPE="RADIO" VALUE="A" NAME="cc">
+A. {‘animal’: ‘horses’, ‘verb’: ‘are’, ‘adjective’: ‘fast’}<BR>
+
+<INPUT TYPE="RADIO" VALUE="B" NAME="cc">
+B. (‘horses’, ‘are’, ‘fast’)<BR>
+
+<INPUT TYPE="RADIO" VALUE="C" NAME="cc">
+C. ‘horses are fast’<BR>
+
+<INPUT TYPE="RADIO" VALUE="D" NAME="cc">
+D. 'are'<BR>
+</div>
+</div>
+<br>
+<div class="dsubmit">
+<INPUT TYPE="SUBMIT" class="submit" VALUE="Submit Answer">
+</div>
+<br><br>
+<a style="float:right" href="q3.2.0.htm" target="_self">next</a>
+<a style="float:left" href="q2.10.0.htm" target="_self">prev</a>
+</FORM>
+</body>
+</html>
