@@ -24,7 +24,6 @@ color: #001f3f;
   text-decoration: none;
   font-size: 16px;
   height: 32px;
-  margin-left: 163px;
 }
 .login{
 background-color: white;
@@ -42,4 +41,7 @@ margin-top: 330px;
 }
 .fp{
       font-size: 20px;
+}
+.bt{
+      margin-left: 163px;
 }
