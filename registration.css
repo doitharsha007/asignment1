@@ -21,19 +21,14 @@ font-size:27px;
   margin-left: 198px;
   margin-top: 17px;
 }
-body{
-width: 500px;
-margin: auto;
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: center;
-}
 h1{
 text-align:center;
 font-family: sans-serif;
 }
 #reg{
 margin-top: 50px;
+width: 500px;
+margin: auto;
 }
 .bottom{
 margin-top: 270px;
