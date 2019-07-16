@@ -1,8 +1,8 @@
 from flask import Flask
 import os
-app =Flask(__name__)
+app = Flask(__name__)
 
-@app.router("/")
+@app.route("/")
 def index():
    return """
 <!doctype html>
